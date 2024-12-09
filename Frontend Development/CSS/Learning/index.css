@@ -1,0 +1,855 @@
+/* Basic syntax. */
+h1 { font-size: 30px; }
+
+
+
+/* Color property. */
+h2 { color: blue; }
+p { color: green; }
+
+
+
+/* Inline CSS. */
+
+/* Internal CSS. */
+
+/* External CSS. */
+h4 { 
+    color: brown; 
+    font-size: 30px; 
+}
+
+
+
+/* Selectors. */
+
+/* Element selector. */
+b { color: coral; }
+
+/* Universal selector. */
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-size: 20px;
+}
+
+/* Id selector. */
+#first { 
+    color: crimson; 
+    font-size: 30px; 
+}
+
+/* Class selector. */
+.second { 
+    color: cornflowerblue;
+    font-size: 30px; 
+}
+
+/* Group selector. */
+h5, h6 { color: darkblue; }
+
+/* Descendent selector. */
+#parent p { color: darkcyan; }
+
+
+
+/* Background-Color property. */
+#ek { background-color: red; }
+#doo { background-color: green; }
+button { background-color: blue; }
+
+
+
+/* Color System. */
+/* RGB color system */
+#third { background-color: rgb(255, 0, 0); }
+#fourth { background-color: rgb(0, 255, 0); }
+#fifth { background-color: rgb(0, 0, 255); }
+
+/* HEX color model */
+#sixth { background-color: #ff0000; }
+#seventh { background-color: #00ff00; }
+#eighth { background-color: #0000ff; }
+
+/* Alpha channel */
+#one { background-color: rgba(255, 0, 0, 0.2); }
+#two { background-color: rgba(255, 0, 0, 0.4); }
+#three { background-color: rgba(255, 0, 0, 0.6); }
+#four { background-color: rgba(255, 0, 0, 0.8); }
+#five { background-color: rgba(255, 0, 0, 1); }
+
+
+
+/* Height & Width property. */ 
+.box { 
+    height: 50px; 
+    width: 50px; 
+}
+#box1 { background-color: gold; }
+#box2 { background-color: gray; }
+#box3 { background-color: fuchsia; }
+
+
+
+/* Background-Image property. */
+#icon { 
+    height: 100px;
+    width: 100px;
+    background-image: url(Images/Myntra-Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+/* Visibility property. */
+.square {
+    height: 50px;
+    width: 50px;
+}
+#square1 {
+    background-color: indigo;
+    visibility: hidden;
+}
+#square2 {
+    background-color: indigo;
+    visibility: visible;
+}
+
+
+
+/* Text-Align property. */
+.cube {
+    height: 100px;
+    width: 100px;
+}
+#cube1 {
+    background-color: red;
+    text-align: left;
+}
+#cube2 {
+    background-color: green;
+    text-align: center;
+}
+#cube3 {
+    background-color: blue;
+    text-align: right;
+}
+
+
+
+/* Text-Decoration. */
+/* Text-Decoration property. */
+#decor1 { text-decoration: overline; }
+#decor2 { text-decoration: line-through; }
+#decor3 { text-decoration: underline; }
+
+/* Text-Decoration-Style property. */
+.decor { text-decoration: underline; }
+#decor4 { text-decoration-style: dashed; }
+#decor5 { text-decoration-style: dotted; }
+#decor6 { text-decoration-style: double; }
+#decor7 { text-decoration-style: solid; }
+#decor8 { text-decoration-style: wavy; }
+
+/* Text-Decoration-Color property. */
+#decor9 { text-decoration-color: red; }
+#decor10 { text-decoration-color: green; }
+#decor11 { text-decoration-color: blue; }
+
+
+
+/* Text-Transform property. */
+#trans1 { text-transform: uppercase; }
+#trans2 { text-transform: lowercase; }
+#trans3 { text-transform: capitalize; }
+#trans4 { text-transform: none; }
+
+
+
+/* Line-Height property. */
+#pOne { line-height: 6px; }
+#pTwo { line-height: 30px; }
+
+
+
+/* Font property. */
+/* Font-Size property. */
+#fSize1 { font-size: 15px; }
+#fSize2 { font-size: 20px; }
+#fSize3 { font-size: 25px; }
+#fSize4 { font-size: 30px; }
+
+/* Font-Weight property. */
+#fWeight1 { font-weight: 300; }
+#fWeight2 { font-weight: 600; }
+#fWeight3 { font-weight: 900; }
+
+/* Font-Style property. */
+#fStyle1 { font-style: oblique; }
+#fStyle2 { font-style: italic; }
+#fStyle3 { font-style: normal; }
+
+/* Font-Family property. */
+#fFamily { 
+    font-family: "Dancing Script", cursive;
+    color: red;
+    font-size: 20px;
+}
+
+/* Icons using fonts. */
+
+
+
+/* Box Model. */
+.bMode {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+/* Padding property. */
+#padding {
+    padding: 10px;
+    background-color: indianred;
+}
+
+/* Margin property. */
+#margin {
+    margin: 10px;
+    background-color: yellow;
+}
+
+/* Border. */
+/* Border property. */
+#border {
+    border: 5px solid darkslateblue;
+    background-color: fuchsia;
+}
+
+/* Border-Radius property. */
+#bRadius {
+    border-radius: 10px;
+    border: 5px solid #ff0000;
+    background-color: #00ff00;
+}
+
+/* Box-Sizing property. */
+#bSize {
+    box-sizing: border-box;
+    border: 5px dashed #0000ff;
+    background-color: aqua;
+}
+
+
+
+/* Display property. */
+.div {
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+    margin: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+/* Block. */
+#div1 { display: block; }
+#div2 { display: block; }
+
+/* Inline. */
+#div3 { display: inline; }
+#div4 { display: inline; }
+
+/* Inline-Block. */
+#div5 { display: inline-block; }
+#div6 { display: inline-block; }
+
+/* None. */
+#div8 { display: none; }
+
+
+
+/* Relative-Units. */
+.rUnits {
+    height: 200px;
+    width: 200px;
+    font-size: 25px;
+    margin: 5px;
+}
+.fUnits {
+    height: 50%;
+    width: 70%;
+}
+
+/* Percentage[%] property. */
+#first_div { background-color: darkred; }
+#second_div {
+    width: 50%;
+    height: 30%;
+    font-size: 25px;
+    background-color: cornsilk;
+}
+
+/* EM property. */
+#third_div { background-color: darkorange; }
+#fourth_div {
+    font-size: 2em;
+    background-color: cadetblue;  
+}
+
+/* REM property. */
+#fifth_div { background-color: greenyellow; }
+#sixth_div {
+    font-size: 2rem;
+    background-color: darkgrey;
+}
+
+/* VW/VH property. */
+#seventh_div {
+    height: 50vh;
+    width: 50vh;
+    background-color: darkslategrey;
+}
+
+
+
+/* Position property. */
+.position {
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+/* Static. */
+#position1 {
+    position: static;
+}
+
+/* Relative. */
+#position2 {
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+/* Absolute. */
+#position3 {
+    position: absolute;
+    top: 240px;
+    left: 100px;
+}
+
+/* Fixed. */
+#position4 {
+    position: fixed;
+    top: 500px;
+    left: 340px;
+}
+
+/* Z-Index. */
+.zIndex {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+}
+#zIndex1 {
+    background-color: lightblue;
+    left: 20px;
+    top: 5230px;
+    z-index: 3;
+}
+#zIndex2 {
+    background-color: aquamarine;
+    left: 60px;
+    top: 5190px;
+    z-index: 2;
+}
+#zIndex3 {
+    background-color: aqua;
+    left: 100px;
+    top: 5150px;
+    z-index: 1;
+}
+
+
+
+/* Float property. */
+#container {
+    height: 110px;
+    width: 300px;
+    border: 3px solid black;
+    margin: 400px 5px 5px 5px;
+}
+.float {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+#float1 {
+    background-color: red;
+    float: right;
+}
+#float2 {
+    background-color: blue;
+    float: left;
+}
+
+
+
+/* Flexbox Container. */
+
+/* Flex-Direction property. */
+.fContainer {
+    display: flex;
+    border: 3px solid black;
+    background-color: antiquewhite;
+    margin: 5px;
+}
+.fContainerR {
+    height: 200px;
+    width: 800px;
+}
+.fContainerC {
+    height: 800px;
+    width: 200px;
+}
+.fBox {
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 10px;
+}
+#fBox1 { background-color: aqua; }
+#fBox2 { background-color: blueviolet; }
+#fBox3 { background-color: yellow; }
+#fBox4 { background-color: tomato; }
+
+/* Row;[By default] */
+#fContainer1 { flex-direction: row; }
+
+/* Row-reverse; */
+#fContainer2 { flex-direction: row-reverse; }
+
+/* Column; */
+#fContainer3 { flex-direction: column; }
+
+/* Column-reverse; */
+#fContainer4 { flex-direction: column-reverse;}
+
+
+/* Justify-Content property. */
+/* Flex-start; */
+#fContainer5 { justify-content: flex-start; }
+
+/* Flex-end; */
+#fContainer6 { justify-content: flex-end; }
+
+/* Center; */
+#fContainer7 { justify-content: center; }
+
+/* Space-between; */
+#fContainer8 { justify-content: space-between; }
+
+/* Space-around; */
+#fContainer9 { justify-content: space-around; }
+
+/* Space-evenly; */
+#fContainer10 { justify-content: space-evenly; }
+
+
+/* Flex-Wrap property. */
+.fContain {
+    display: flex;
+    border: 3px solid black;
+    background-color: antiquewhite;
+    margin: 5px;
+
+    height: 450px;
+    width: 450px;
+}
+#fBox5 { background-color: #00ff00; }
+#fBox6 { background-color: blue; }
+#fBox7 { background-color: red; }
+
+/* Nowrap; */
+#fContain1 { flex-wrap: nowrap; }
+
+/* Wrap; */
+#fContain2 { flex-wrap: wrap; }
+
+/* Wrap-reverse; */
+#fContain3 { flex-wrap: wrap-reverse; }
+
+
+/* Align-Items[cross-axis] property. */
+/* Start; */
+#fContain4 { align-items: start; }
+
+/* End; */
+#fContain5 { align-items: end; }
+
+/* Center; */
+#fContain6 { align-items: center; }
+
+
+/* Align-Content property. */
+.aContent {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Flex-start; */
+#fContain7 { align-content: flex-start; }
+
+/* Flex-end; */
+#fContain8 { align-content: flex-end; }
+
+/* Center; */
+#fContain9 { align-content: center; }
+
+/* Space-between; */
+#fContain10 { align-content: space-between; }
+
+/* Space-around; */
+#fContain11 { align-content: space-around; }
+
+/* Space-evenly; */
+#fContain12 { align-content: space-evenly; }
+
+
+/* Flex-Items. */
+
+/* Align-Self property. */
+.aSelf { align-items: start; }
+/* Flex-start; */
+#fBox8 { 
+    align-self: flex-start;
+    background-color: darkorange;
+}
+
+/* Center; */
+#fBox9 { 
+    align-self: center;
+    background-color: darkseagreen; 
+}
+
+/* Flex-end; */
+#fBox10 {
+    align-self: flex-end; 
+    background-color: lightpink; 
+}
+
+
+/* Flex-Shrink property. */
+.fCon {
+    height: 300px;
+    width: 600px;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid black;
+    background-color: antiquewhite;
+
+    display: flex;
+}
+.fBlock {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border: 3px solid black;
+}
+/* 0;[By default] */
+#fBlock1 {
+    flex-shrink: 0;
+    background-color: yellowgreen;
+}  
+
+/* 0.5; */
+#fBlock2 {
+    flex-shrink: 0.5;
+    background-color: violet;
+}  
+
+/* 1; */
+#fBlock3 {
+    flex-shrink: 1;
+    background-color: turquoise;
+}  
+
+/* 2; */
+#fBlock4 {
+    flex-shrink: 2;
+    background-color: tomato;
+}  
+
+
+/* Flex-Grow property. */
+/* 0;[By default] */
+#fBox11 {
+    flex-grow: 0;
+    background-color: darkviolet;
+}
+
+/* 0.5; */
+#fBox12 {
+    flex-grow: 0.5;
+    background-color: firebrick;
+}
+
+/* 1; */
+#fBox13 {
+    flex-grow: 1;
+    background-color: indianred;
+}
+
+/* 2; */
+#fBox14 {
+    flex-grow: 2;
+    background-color: rebeccapurple;
+}
+
+
+/* Order property. */
+/* 3; */
+#fBox15 {
+    order: 3;
+    background-color: red;
+}
+
+/* 1; */
+#fBox16 {
+    order: 1;
+    background-color: green;
+}
+
+/* 4; */
+#fBox17 {
+    order: 4;
+    background-color: blue;
+}
+
+/* 2; */
+#fBox18 {
+    order: 2;
+    background-color: aqua;
+}
+
+
+
+/* Grid property. */
+#gContainer {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    margin: 5px;
+}
+#gItem1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: lightblue;
+}
+#gItem2 {
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+    background-color: lightgreen;
+}
+#gItem3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    background-color: lightpink;
+}
+#gItem4 {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    background-color: lightyellow;
+}
+
+
+
+/* Media Queries. */
+.mqRule {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 50px;
+    font-size: 15px;
+}
+/* Width rule. */
+#width { background-color: crimson; }
+
+@media screen and (width: 300px) {
+    #width { background-color: blue; }
+}
+
+/* Min-width rule. */
+#minWidth { background-color: greenyellow; }
+
+@media screen and (min-width: 350px) {
+    #minWidth {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+/* Max-width rule. */
+#maxWidth { background-color: deeppink; }
+
+@media screen and (max-width: 400px) {
+    #maxWidth {
+        height: 50px;
+        width: 50px;
+    }   
+}
+
+/* Combination of Min-width & Max-width rule. */
+#min-maxWidth { background-color: gold; }
+
+@media screen and (min-width: 450px) and (max-width: 500px) {
+    #min-maxWidth { border-radius: 50%; }
+}
+
+
+
+/* Pseudo Classes property. */
+.pseudo {
+    height: 30px;
+    width: 100px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    background-color: lightblue;
+    margin: 5px;
+}
+/* Hover state. */
+#hState:hover {
+    height: 35px;
+    width: 110px;
+    border: 3px solid red;
+    background-color: lightpink;
+}
+
+/* Active state. */
+#aState:active {
+    height: 35px;
+    width: 110px;
+    border: 3px solid green;
+    background-color: lightgreen;
+}
+
+
+
+/* Transition property. */
+.transition {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    /* transition: all 1s ease-in-out 0s; */
+
+    height: 40px;
+    width: 300px;
+    border: 3px solid crimson;
+    border-radius: 5px;
+    background-color: lightcoral;
+    margin: 5px;
+}
+#tProperty:hover {
+    height: 50px;
+    width: 320px;
+    border: 3px solid cyan;
+    background-color: lightcyan;
+}
+
+
+
+/* Transform property. */
+.transform {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 20px;
+    transition: all 1s ease-in-out 0s;
+}
+.transform1 { background-color: lime; }
+.transform2 { background-color: blueviolet; }
+.transform3 { background-color: indianred; }
+.transform4 { background-color: violet; }
+/* Rotate state. */
+#rotate1:hover { transform: rotate(45deg); }
+#rotate2:hover { transform: rotateZ(180deg); }
+#rotate3:hover { transform: rotateX(45deg); }
+#rotate4:hover { transform: rotateY(45deg); }
+
+/* Scale state. */
+#scale1:hover { transform: scale(0.5); }
+#scale2:hover { transform: scale(1.5); }
+#scale3:hover { transform: scaleX(1.5); }
+#scale4:hover { transform: scaleY(1.5); }
+
+/* Translate state. */
+#translate1:hover { transform: translate(50px); }
+#translate2:hover { transform: translate(50px, 50px); }
+#translate3:hover { transform: translateX(50px); }
+#translate4:hover { transform: translateY(50px); }
+
+/* Skew state. */
+#skew1:hover { transform: skew(45deg); }
+#skew2:hover { transform: skew(90deg); }
+#skew3:hover { transform: skewX(45deg); }
+#skew4:hover { transform: skewY(45deg); }
+
+
+
+/* Animation property. */
+.animation {
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    left: 10px;
+}
+/* From-To. */
+#fromTo {
+    animation-name: movesRight;
+    /* animation: movesRight 2s ease-in-out 0s infinite alternate; */
+    background-color: goldenrod;
+}
+@keyframes movesRight {
+    from { left: 10px; }
+    to { left: 800px; }
+}
+
+/* Percentage[%]. */
+#percentage {
+    animation-name: movesSquare;
+    /* animation: movesSquare 2s ease-in-out 0s infinite alternate; */
+    background-color: darksalmon;
+}
+@keyframes movesSquare {
+    0% { 
+        left: 10px;
+        top: 0px; 
+    }
+    50% {
+        left: 150px;
+        top: 150px;
+    }
+    100% {
+        left: 300px;
+        top: 0;
+    }
+}

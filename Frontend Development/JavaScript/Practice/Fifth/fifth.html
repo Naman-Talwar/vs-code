@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Practice Set 5</title>
+</head>
+<body>
+  <script>
+    function evenOddChecker(num) {
+      if (num % 2 === 0) {
+        return 'Even';
+      } else {
+        return 'Odd';
+      }
+    }
+    console.log(evenOddChecker(4));
+    console.log(evenOddChecker(7));
+    console.log(evenOddChecker(24));
+    console.log(evenOddChecker(33));
+
+
+    function largerNoChecker(num1, num2) {
+      // if (num1 > num2) {
+      //   return num1;
+      // } else {
+      //   return num2;
+      // }
+      return num1 > num2 ? num1 : num2;
+    }
+    console.log(largerNoChecker(4, 5));
+    console.log(largerNoChecker(8, 2));
+    console.log(largerNoChecker(6, 6));
+    console.log(largerNoChecker(3, 9));
+    
+
+    function toFahrenheit(celsiusValue) {
+      return 9 / 5 * celsiusValue + 32;
+    }
+    console.log(toFahrenheit(38));
+    console.log(toFahrenheit(0));
+    console.log(toFahrenheit(100));
+    console.log(toFahrenheit(50));
+  </script>
+</body>
+</html>

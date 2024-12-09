@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bar {
+    background-color: aqua;
+    color: rgba(255, 0, 0, 0.8);
+}
+
+main {
+    background-color: darksalmon;
+    height: 500px;
+}
+
+#product {
+    height: 290px;
+    width: 200px;
+    /* Shorthand = background: color image repeat attachment position; */
+    background: blue url(Jeans.webp) no-repeat center;
+    background-size: contain;
+}
+
+footer {
+    background-color: crimson;
+}

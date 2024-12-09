@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+}
+
+#click {
+  background-color: lightgreen;
+  border-radius: 5px;
+  border: 2px solid green;
+  padding: 1px 5px;
+  margin: 5px;
+}
+
+.push {
+  background-color: lightblue;
+  border-radius: 5px;
+  border: 2px solid blue;
+  padding: 1px 5px;
+  margin: 5px;
+}
+
+p {
+  color: blueviolet;
+}
+
+a {
+  text-decoration: none;
+  color: coral;
+}
+
+.my-box {
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet;
+  border: 2px solid black;
+  padding: 5px;
+}

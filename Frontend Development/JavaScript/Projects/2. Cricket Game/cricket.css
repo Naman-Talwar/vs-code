@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: lightyellow;
+}
+
+#heading {
+  margin: 5px;
+  color: red;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: yellow;
+  font-size: 60px;
+}
+
+.game-button {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: chartreuse;
+}
+.reset-button {
+  height: 30px;
+  width: 60px;
+  margin: 5px;
+}
+
+.choice-image {
+  height: 125px;
+  cursor: pointer;
+}

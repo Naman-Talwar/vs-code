@@ -1,0 +1,19 @@
+/* External styling */
+#heading {
+    color: brown;
+}
+
+#one {
+    color: green;
+}
+p {
+    color: brown;
+}
+.two {
+    color: crimson;
+}
+
+#first, #second {
+    color: darkblue;
+    font-size: 20px;
+}
